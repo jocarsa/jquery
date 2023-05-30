@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script>
+        <style>
+            article,div{
+                width:100px;
+                height:100px;
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <article></article>
+        <div id="verde"></div>
+        <div class="azul"></div>
+        <div class="azul"></div>
+        <script>
+            //document.getElementsByTagName("article")[0].style.background = "red"
+            $("article").css("background","red")
+            $("#verde").css("background","green")
+            /*
+                var elementos = document.getElementsByClassName("azul")
+                for(let i = 0;i<elementos.length;i++){
+                    elementos[i].style.background = "blue"
+                }
+            */
+            $(".azul").css("background","blue")
+        </script>
+    </body>
+</html>

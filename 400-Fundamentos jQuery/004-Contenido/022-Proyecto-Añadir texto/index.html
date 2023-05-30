@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script> 
+        <style>
+            #rojo{width:100px;height:100px;background:red;border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <button id="escribir">Escribir</button>
+        <div id="rojo">Este es un <b>texto</b></div>
+        <script>
+            $("#escribir").click(function(){
+                $("#rojo").append(" Este es otro texto desde jQuery")
+            })
+        </script>
+    </body>
+</html>

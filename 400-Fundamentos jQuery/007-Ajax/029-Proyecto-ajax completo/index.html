@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script> 
+        <style>
+            #contenedor{
+                padding:20px;
+                border:1px solid grey;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Pulsame</button>
+        <div id="contenedor"></div>
+        <script>
+            var edad = 45;
+            $("button").click(function(){
+                console.log("boton pulsado")
+                $.ajax({
+                    url:"servidor2.php",
+                    data: "edad="+edad,
+                    type: "POST",
+                    success:exito,
+                    error:problemas
+                })
+            })
+            function exito(e){
+                console.log("exito")
+                console.log(e)
+                $("#contenedor").text(e)
+            }
+            function problemas(){
+                console.log("error")
+                $("#contenedor").text("Ha ocurrido algun problema")
+            }
+        </script>
+    </body>
+</html>

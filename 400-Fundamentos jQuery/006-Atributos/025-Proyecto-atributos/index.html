@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script> 
+        <style>
+            #contenedor{
+                width:100px;
+                height:100px;
+                border:1px solid black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <button id="rojo" micolor="red">Rojo</button>
+        <button id="verde" micolor="green">Verde</button>
+        <button id="azul" micolor="blue">Azul</button>
+        <button id="naranja" micolor="orange">Naranja</button>
+        <div id="contenedor">Este es un <b>texto</b></div>
+        <script>
+            $("button").click(function(){
+                var micolor = $(this).attr("micolor")
+                $("#contenedor").css("background",micolor)
+            })
+        </script>
+    </body>
+</html>

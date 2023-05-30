@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script>  
+    </head>
+    <body>
+        <input type="text" id="nombre">
+        <script>
+            $("#nombre").focus(function(){
+                console.log("has entrado en el campo")
+            })
+            $("#nombre").blur(function(){
+                console.log("has salido del campo")
+            })
+        </script>
+    </body>
+</html>

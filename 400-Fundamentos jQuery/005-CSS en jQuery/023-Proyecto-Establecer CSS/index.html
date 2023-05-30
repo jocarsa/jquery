@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script> 
+        <style>
+            #rojo{width:100px;height:100px;border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <button id="cambiar">Cambiar</button>
+        <button id="leer">Leer</button>
+        <div id="rojo">Este es un <b>texto</b></div>
+        <script>
+            $("#cambiar").click(function(){
+                $("#rojo").css("background","red")
+            })
+            $("#leer").click(function(){
+                console.log($("#rojo").css("background"))
+            })
+        </script>
+    </body>
+</html>

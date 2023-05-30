@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script> 
+        <style>
+            #contenedor{
+                width:100px;
+                height:100px;
+                border:1px solid black;
+            }
+            .rojo{background:red;}
+            .verde{background:green;}
+            .azul{background:blue;}
+        </style>
+    </head>
+    <body>
+        <button id="rojo">Rojo</button>
+        <button id="verde">Verde</button>
+        <button id="azul">Azul</button>
+        <button id="reiniciar">Reiniciar</button>
+        <div id="contenedor">Este es un <b>texto</b></div>
+        <script>
+            $("#rojo").click(function(){
+                $("#contenedor").addClass("rojo")
+            })
+            $("#verde").click(function(){
+                $("#contenedor").addClass("verde")
+            })
+            $("#azul").click(function(){
+                $("#contenedor").addClass("azul")
+            })
+            $("#reiniciar").click(function(){
+                $("#contenedor").removeClass("azul")
+                $("#contenedor").removeClass("rojo")
+                $("#contenedor").removeClass("verde")
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Aprendiendo jQuery</title>
+        <meta charset="utf-8">
+        <script src="../jquery-3.7.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#miboton").mousedown(function(){
+                    console.log("has pulsado el boton del ratón")
+                })
+                $("#miboton").mouseup(function(){
+                    console.log("has despulsado el botón")
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="miboton">Púlsame</button>
+    </body>
+</html>
