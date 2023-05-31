@@ -1,0 +1,22 @@
+ aunque en principio todo el código JavaScript, que se encuentre dentro de un documento, debería estar situado dentro de la cabeza del propio documento HTML, muchas veces nos encontramos con el inconveniente de que, para que un selector sea reconocido por parte de JavaScript, ese selector tiene que existir previamente.
+
+Dado que una página web carga de forma secuencial, desde la parte superior hasta la parte inferior, estando JavaScript incluido dentro de la cabeza, muchas veces nos encontramos con el efecto no deseado de que, para cuando JavaScript se carga y se ejecuta, el resto del documento, HTML todavía no ha llegado a cargarse, y, por lo tanto, aquellas etiquetas HTML, a las que hace referencia el código JavaScript, realmente todavía no existen, con lo cual, muchas partes del código JavaScript pueden sencillamente no funcionar .
+
+Una de las soluciones clásicas más utilizadas consiste en introducir el código JavaScript al final del documento, en lugar de estar incluido dentro de la cabeza.
+
+Esto asegura que, para cuando el documento procese el código JavaScript, todas las etiquetas HTML del documento habrán sido cargadas.
+
+Para arreglar este inconveniente, dentro de la librería jQuery encontramos un método llamado Ready.
+
+El método Ready nos permite contener la ejecución del código hasta que un elemento del código, o bien el documento en sí mismo, hayan quedado correctamente cargados.
+
+Por lo tanto, en este ejemplo que se muestra a continuación, observaremos que, por una parte, el código JavaScript está claramente cargado en la parte superior del documento, en la cabeza.
+
+Dentro del código JavaScript se selecciona el documento, y sobre el documento se aplica el método Ready. Este método detiene la ejecución de todo aquello que contenga el método, hasta que el documento haya quedado correctamente cargado, y lance el mensaje de que está preparado.
+
+Dentro de este método, realizamos una selección del elemento que constituye un botón, y lanzamos un evento clic, lo que quiere decir que JavaScript se queda escuchando a cualquier clip que se haga sobre el botón.
+
+Por último, dentro de la consola, lanzaremos un mensaje para dar fe de que el botón se ha pulsado correctamente.
+
+Si nos fijamos, todo este código existe, en el documento, antes de la propia existencia del botón, que se encuentra dentro del cuerpo, y sin embargo, si ejecutamos el código, podremos comprobar como el mensaje por consola sale correctamente.
+
