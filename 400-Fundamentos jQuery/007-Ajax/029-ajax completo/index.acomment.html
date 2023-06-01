@@ -1,0 +1,30 @@
+ la instrucción de carga sincrónica que hemos visto en el capítulo anterior, es muy conveniente desde el punto de vista del balance entre el esfuerzo y el resultado, pero en ocasiones, deseamos realizar peticiones de sincrónicas con más parámetros y más control que aquel que nos da una sencilla instrucción de carga.
+
+Es por esto que en este parámetro se presenta el método completo Ajax, que es un método mediante el cual podemos introducir, en sus parámetros, cómo se va a comportar.
+
+Por esto, en este caso, además, no solo vamos a ilustrar el concepto de envío de peticiones asincrónicas al servidor, sino que también es importante ilustrar el concepto de envío de información, junto con la petición asincrónica, y de recepción de la información resultante.
+
+Por lo tanto, para este proyecto, en el código JavaScript, en primer lugar, se ha creado una variable, a la que se le ha dado el valor de 45.
+
+A continuación, cuando se pulsa el botón, se envía una petición Ajax, y a continuación, se le pasan una serie de parámetros, que son los siguientes:
+
+En la URL, especificamos la dirección del script del servidor o de la dirección URL que procesar a nuestra petición.
+
+En los datos, especificamos, parejas de clave y valor, en las cuales vamos a indicar que datos pasarán desde el cliente al servidor.
+
+En el tipo, podremos elegir entre Postiguet. Mediante la instrucción de carga sencilla únicamente podemos utilizar el método Get, pero ahora que podemos utilizar la instrucción completa, podemos elegir entre usar Post y usar red.
+
+A continuación, elegiremos la función que se ejecutará cuando la petición haya tenido éxito.
+
+Y por último, estableceremos cuál será la función que se encargará de ser ejecutada si la petición asincrónica da problemas.
+
+Por último, dentro del código, definiremos, de forma externa, dos funciones, una de éxito, y otra de problemas.
+
+El nombre de las funciones no es importante, pero evidentemente debe coincidir con los identificables proporcionados dentro de los parámetros de Ajax.
+
+En cuanto a la función de éxito, su misión será únicamente sacar por consola el contenido de la petición de Ajax.
+
+Y en cuanto a la función de problemas, se ejecutará únicamente en el caso de que la petición asincrónica no haya sido correcta.
+
+En el caso del ejemplo que se presente a continuación, se ha forzado un error, consistente en apuntar a un archivo con el nombre servidor dos, pero sin embargo, el archivo que se ha proporcionado con este escrito, es un archivo llamado servidor. Php.
+
