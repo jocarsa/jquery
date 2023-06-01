@@ -1,0 +1,21 @@
+ Al igual que ocurre con muchos eventos, dentro de jQuery, el propio evento viene sobrecargado, lo cual quiere decir que, siempre que el evento encuentre un solo parámetro, significará que se va a utilizar para leer, pero siempre que el evento encuentre dos parámetros, significará que se va a utilizar para describir.
+
+A lo largo de este curso hemos visto que esa regla se aplica para múltiples eventos y funciones de jQuery, y en este caso vamos a verlo aplicado también a los atributos de las etiquetas HTML.
+
+Por lo tanto, anteriormente dentro de este mismo capítulo, hemos podido comprobar como hemos sido capaces de leer las etiquetas y los atributos presentes dentro de cada una de las etiquetas de HTML.
+
+En este caso, sin embargo, para este ejercicio, vamos a ilustrar cómo podemos dotar a los lectores HTML de atributos que previamente no tenían.
+
+Existe una propiedad, llamada content, edita Ball, que nos permite hacer que los elementos HTML puedan ser evitables directamente por parte de usuario en su navegador web.
+
+Para este ejemplo, he aportado una etiqueta de párrafo, que actualmente no contiene el atributo de poder ser evitable directamente en el navegador.
+
+Por lo tanto, el código JavaScript tiene dos partes:
+
+En la primera parte, cuando el usuario haga doble clic dentro de la etiqueta de párrafo, a esa misma etiqueta, se le aplicará el atributo de edición de contenido, con el parámetro True, lo cual quiere decir que cualquier usuario podrá editar el contenido de ese selector.
+
+En la segunda parte del código, cuando el usuario se desenfoque con respecto al párrafo, es decir, cuando saque el cursor del ratón, y haga clic en cualquier otra parte, en ese caso, sí le asignará el valor falso, All atributo de edición de contenidos, para esa etiqueta.
+
+Este trozo de código nos permitirá hacer que el texto de una página web no sea evitable, a menos que hagamos doble clic dentro de ese texto, momento en el cual el elemento pasará a ser evitable.
+
+Sin embargo, cuando salgamos del elemento llegamos clic en cualquier otra parte, el elemento pasará a estar otra vez en modo de solo lectura, y ya no podremos evitar su contenido, hasta la próxima vez que hagamos doble clic encima del mismo.. 
