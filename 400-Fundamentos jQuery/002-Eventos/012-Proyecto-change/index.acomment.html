@@ -1,0 +1,11 @@
+ la operación de cambio nos permite detectar cuando el contenido de un elemento que hayamos seleccionado haya cambiado.
+
+Para esto, la librería, en primer lugar, comprueba y guarda cuál es el estado del elemento cuando hacemos enfoque sobre el mismo.
+
+A partir de ese momento, podemos hacer cambios en el elemento, generalmente algún campo de formulario, o podemos no hacer ningún cambio.
+
+Cuando el elemento pierde el foco, es decir, cuando el usuario hace clic fuera del elemento, este evento en cuestión compara el estado inicial GUARDADO con respecto al estado final, y detecta si ha habido algún cambio dentro del elemento.
+
+En el caso de que realmente haya habido algún cambio, el evento dispara una acción, que es la que podemos definir, o bien llamando a una función externa, o bien declarando una función anónima . 
+
+en el ejemplo de código concreto que se presenta a continuación, presentamos un campo de entrada con un identificador llamado nombre, y a continuación, en JavaScript, creamos un pequeño bloque de código, tal que nos permite, en primer lugar, seleccionar el campo anteriormente mencionado, y en el caso de que se produzca algún cambio, se lanza un mensaje a la consola. 
