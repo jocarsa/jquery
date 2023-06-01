@@ -1,0 +1,6 @@
+ una vez que hemos creado la estructura de base, a continuación, le damos un estilo mínimo para que el proyecto resulte visualmente atractivo.
+
+Por este motivo, en primer lugar, al cuerpo del documento y a la etiqueta HTML, les indicaremos que tendrán un fondo de color gris, y una altura y anchura del 100 %.
+
+A continuación, el contenedor principal del proyecto tendrá el 80 % de la altura y la anchura de la página, un margen automático para que quede automáticamente centrado, al menos en horizontal, un margen interior de 20 px, y un fondo blanco para simular una hoja blanca, y en definitiva, destacar con respecto al fondo gris.
+
