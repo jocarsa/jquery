@@ -1,0 +1,9 @@
+ Y a lo largo de los primeros años de la existencia del lenguaje HTML, el estilo se desarrollaba, o bien dentro del propio documento, HTML, o bien mediante estrategias estables, por ejemplo, crear tablas, y externalizar los elementos de diseño a herramientas de elaboración de imágenes sales como por ejemplo haz de Photoshop.
+
+En 1996 se creó un nuevo lenguaje, llamado CSS, que es un lenguaje puramente presentación al, que tiene el objetivo de actuar como complemento de HTML, creando estilo visual para los documentos, a través de una sintaxis y utilizando una serie de metodologías que evitan que el estilo aparezca de forma repetitiva, tal y como aparecía cuando estaba incrustado dentro de HTML.
+
+Por lo tanto, a partir de ese momento, y de forma progresiva, se comenzó a desarrollar sitios web, utilizando la combinación de esos dos lenguajes, HTML para crear la estructura del documento y también el contenido, y CSS para especificar el estilo del mismo.
+
+CSS es el acrónimo de hojas de estilo en cascada, y por lo tanto, el concepto de cascada es muy importante para la aplicación de la metodología que se propone a través de este lenguaje de estilo.
+
+El principio fundamental consiste en separar el estilo de la estructura, posibilitando también que un solo archivo de estilo caiga en cascada sobre un número indeterminado de documentos, centralizando, el diseño, y posibilitando la materialización del concepto de que el código se escriba una sola vez, y se aplica de forma simultánea y sincronizada sobre un sitio web que disponga de muchos archivos HTML 
