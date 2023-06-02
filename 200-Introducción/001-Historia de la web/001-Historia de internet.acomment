@@ -1,3 +1,12 @@
  No hay, probablemente, una sola versión, clara y unificada, acerca del origen y del nacimiento de Internet.
 
-Generalmente se acepta la versión de que el concepto de interconectar diferentes dispositivos de computación, en una red, de tal forma que pudieran reconocerse de forma remota, a muchos kilómetros de distancia, tiene su origen en las aplicaciones militares, concretamente, al finalizar la Segunda Guerra Mundial y entrar en la Guerra Fría, con el objetivo de establecer un sistema de defensa descentralizado, de tal forma que, aunque una bomba nuclear pudiera barrer una cierta área de un solo golpe, dicho sistema estuviera descentralizado a lo largo de un territorio de una extensión 
+Generalmente se acepta la versión de que el concepto de interconectar diferentes dispositivos de computación, en una red, de tal forma que pudieran reconocerse de forma remota, a muchos kilómetros de distancia, tiene su origen en las aplicaciones militares, concretamente, al finalizar la Segunda Guerra Mundial y entrar en la Guerra Fría, con el objetivo de establecer un sistema de defensa descentralizado, de tal forma que, aunque una bomba nuclear pudiera barrer una cierta área de un solo golpe, dicho sistema estuviera descentralizado a lo largo de un territorio de una extensión relativamente grande, como es, por ejemplo, el territorio de los Estados Unidos.
+
+Dicho esto, y una vez que las primeras experiencias en cuanto a interconexión de ordenadores, probablemente tuvieron esa base, a continuación, en las siguientes pocas décadas, surgieron multitud de aplicaciones empresariales que se podían beneficiar de la interconexión en red de terminales situados a grandes distancias.
+
+en la primera parte de la segunda mitad del siglo XX, la gran mayoría de países que estaban tecnológicamente desarrollados, empezaron a crear sistemas de conexión en red de sus sistemas informáticos, pero cada uno de esos sistemas informáticos hablaba un lenguaje diferente y tenía protocolos diferentes para la conexión.
+
+En un momento dado, entre los años 60 y los años 70, apareció el concepto consistente en interconectar todas esas redes en una sola red, lo cual dió lugar al propio concepto de Internet.
+
+Por lo tanto, cuando hablamos de Internet, de lo que hablamos realmente es de una red interconectadas, es decir, de la conexión de diferentes redes entre sí, hablando un mismo lenguaje, con unas mismas reglas, y trabajando con los uniformes.
+
