@@ -1,0 +1,34 @@
+ Internet, por lo tanto, consiste en una infraestructura de dispositivos de computación, conectados a lo largo de una red, donde, en una gran medida, se sigue la arquitectura de cliente y servidor.
+
+Mediante la arquitectura de cliente y servidor, existen una serie de ordenadores, generalmente de gran potencia, conectados constantemente a la red, que proporcionan una serie de servicios.
+
+Por otra parte, existen otra serie de ordenadores, los clientes, utilizados por usuarios comunes, que sean dispositivos de menos potencia de computación, y que no tienen porque estar conectados a la red de forma permanente, sino que únicamente se conectan cuando necesitan consumir un servicio, lo consumen, y luego pueden o bien desconectarse o bien apagarse.
+
+Encima de esa infraestructura de red que conocemos como Internet, se ejecutan diferentes tipos de servicios.
+
+Por ejemplo, el correo electrónico es uno de los servicios de Internet más conocidos y más utilizados.
+
+Por otra parte, el protocolo de transferencia de archivos, o ftp, es un protocolo ampliamente utilizado entre las empresas para compartir grandes cantidades de información, generalmente bloques de información que no cabrían como adjuntos en los archivos de correo electrónico, por limitaciones de los servidores de correo.
+
+A mediados de los 80 empezó a popularizarse, entre las redes de investigadores, el concepto de hipertexto.
+
+En un documento informático, el hipertexto consiste en introducir una serie de enlaces en el texto estándar, tal es que permiten al lector saltar de una parte a otra del documento, o incluso a otro documento diferente, simplemente haciendo clic, o apuntando, a la palabra, o al bloque de texto, que contiene ese hipervínculo.
+
+éstos trabajos y estas investigaciones inspiraron al investigador y desarrollador Tim Berners-Lee, el cual, durante su estancia, como investigador en el Instituto Fernando de Suiza, desarrolló una primera propuesta para un nuevo servicio, para poder ejecutarse en Internet, consistente en una serie de documentos que estuvieran enlazados entre sí mediante hiper vínculos.
+
+De esta forma, no todavía en el primer intento, sino en el segundo intento, consiguió Porfín, llamarla atención con su propuesta, y consiguió sacar adelante el primer borrador del lenguaje HTML.
+
+Por lo tanto, el servicio de páginas web consistido, en un primer lugar, de tres elementos diferentes, que eran los siguientes:
+
+por una parte, un lenguaje basado en los lenguajes de marcas, mediante el cual cualquier persona podía crear documentos enlazados.
+
+Ese lenguaje fue llamado HTML, que es el acrónimo de Hyper, texto marca Language, o en castellano, lenguaje de marcas de hipertexto.
+
+Por otra parte, también desarrolló, junto con sus colaboradores, un servidor web, llamados simplemente, www.
+
+Y por último, desarrollo, para los equipos de los clientes, un primer navegador web, de tal forma que los clientes se podían conectar al servidor, y el servidor ofrecía páginas web a los clientes.
+
+Evidentemente, dentro del servidor está bien alojados las páginas web que crearán todas aquellas personas que quisieran utilizar ese no me gusta andar.
+
+Por lo tanto, el lenguaje HTML nos permite crear páginas, que están publicadas en Internet, y que inicialmente estaban pensadas para ser algo así como documentos de Word publicados en Internet, es decir, documentos con información de valor que el público general pudiera leer, constituyendo, algo así como una biblioteca en línea, y donde esos textos con tuvieran la capacidad diferencial de estar enlazados en línea mediante hiper vínculos, es decir, de contener vínculos desde unos artículos a otros.
+
