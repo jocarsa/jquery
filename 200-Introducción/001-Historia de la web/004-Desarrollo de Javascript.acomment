@@ -8,3 +8,28 @@ Los documentos HTML, puramente, son documentos estáticos, y no tienen ningún t
 
 No en vano, HTML es un lenguaje de marcaje, pero en ningún momento es un lenguaje de programación.
 
+conforme el uso de la web y va a expandiéndose de forma exclusiva en la segunda mitad de la década de los 90 del siglo XX, era cada vez más necesario contar con algún tipo de herramienta que añadiera y aportará interactividad y dinamismo a las páginas web.
+
+JavaScript fue una de las herramientas que nacieron con este propósito, junto con otras alternativas de la época natales como por ejemplo Macromedia Flash.
+
+JavaScript es un lenguaje derivado de fe, multi paradigma, donde en principio se trabaja con el paradigma imperativo, pero se pueden utilizar varios paradigmas de forma simultánea.
+
+Originalmente es un lenguaje pensado para estar orientado a Eventos, ya que, en principio, su misión es reaccionar a aquellos eventos que cause el usuario, que en el contexto de este lenguaje de programación, es un usuario de un navegador web.
+
+Originalmente JavaScript fue creado para desarrollar tareas sencillas estables, como por ejemplo validación de formularios, algo especialmente importante en una época en la que la velocidad de Internet no era tan alta como la que tenemos hoy en día, y, por lo tanto, cada vez que enviamos un formulario, y ese formulario fallaba en el servidor, teníamos que recargar la página, y eso, en aquellos tiempos, podía resultar algo bastante engorroso.
+
+Ante problemas de ese tipo, JavaScript proponía la validación de algunos elementos, como por ejemplo, formularios, de tal forma que podía asegurarse que los campos de los formularios estaban correctos antes de enviarlos al servidor.
+
+Si bien en la primera mitad de la primera década de este siglo XXI, la interactividad en los navegadores web estuvo, en gran medida, gobernada por la tecnología de Adobe Flash, más adelante, Macromedia Flash, en un momento dado, especialmente a partir del año 2007 y 2008, cuando salieron los primeros dispositivos móviles, lanzados tanto por Apple, como por diferentes marcas, utilizando el sistema operativo de Google, es decir, Android, el mercado poco a poco, y especialmente los fabricantes, empezaron a poner trabas primero, y a rechazar más adelante, la tecnología Flas, por diferentes motivos que no vienen al caso de esta publicación.
+
+Es entonces cuando, All ocaso de la tecnología Flash, JavaScript volvió a tener un papel muy importante en el desarrollo de páginas web.
+
+Sin embargo, ya en aquel momento, las páginas web no eran la tecnología que se había pensado y concebido una década atrás, en los años 90, donde en principio se pensaba que una página web era un documento publicado en Internet, hiper vinculado con otros documentos.
+
+Ya para raquel entonces, se podían realizar una gran cantidad de tareas dentro de una página web, tal vez, por ejemplo consultar el correo, ver noticias, ver redes sociales, etc. 
+
+Aquellos cursos avanzados de lo que hoy conocemos como la web, requerían tecnologías que estuvieran a la altura de la interacción que el usuario demandaba de los navegadores web.
+
+Por lo tanto, JavaScript empezó a cobrar una importancia muy grande, en cuanto a que, prácticamente, desde aquel momento, y todavía hasta el día de hoy, cada vez las personas realizan más actividades a través de la web, tanto en el plano profesional, como en el plano personal.
+
+JavaScript tiene, por tanto, la tremenda responsabilidad de ser el lenguaje de programación que da soporte a la interacción, es necesaria para desarrollar todas esas actividades. 
