@@ -1,0 +1,8 @@
+ JavaScript, como prácticamente cualquier otro lenguaje de programación, es extensible mediante librerías.
+
+Por otra parte, de la misma forma que ocurre con una gran cantidad de lenguajes de programación de alto nivel, la distribución de la máquina Virtual de JavaScript, presente en los navegadores web, contiene, llave, por sí misma, una gran cantidad de librerías, activadas y disponibles para que el usuario los pueda utilizar.
+
+Pero además de ello, también existen una gran cantidad de librerías adicionales que se pueden vincular directamente en caliente, o bien se pueden descargar y vincular a nuestro proyecto.
+
+Las librerías tienen como objetivo extender las capacidades del núcleo del lenguaje de programación, y ofrecer al programador utilidades para mejorar su productividad, y para conseguir realizar, de forma fácil, tareas que serían difíciles si el programador tuviera que desarrollar el código completamente desde cero.
+
