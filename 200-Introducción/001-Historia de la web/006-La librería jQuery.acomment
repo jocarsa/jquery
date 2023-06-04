@@ -1,0 +1,16 @@
+ la librería jQuery es una de estas librerías de JavaScript, que, en la primera becada de este siglo, surgió con el objetivo de hacer que la escritura de código JavaScript fuera más productiva y más sencilla para el usuario final.
+
+Por otra parte, JavaScript, no solo el que existe hoy, sino especialmente el que existía aproximadamente en los años 2005 y 2006, era un lenguaje que necesitaba que el usuario escribiera bastante código para realizar ciertas operaciones.
+
+Por otra parte, en aquel momento empezó a ser cada vez más frecuente el uso de peticiones asíncronas entre cliente y servidor, pero sin embargo, en aquellos años todavía estamos inmersos en la primera guerra de los navegadores, y por lo tanto, todavía el navegador Internet Explorer de Microsoft tenía una importancia bastante grande.
+
+Desde el punto de vista de las peticiones asíncronas esto tenía su importancia, ya que el protocolo para realizar peticiones Ayax era diferente en Internet Explorer y en el resto de navegadores web.
+
+Esto quiere decir que prácticamente cualquier desarrollador que quisiera utilizar esa tecnología, que por otra parte, cada día era más frecuente, tenía que escribir el código dos veces, utilizando una estructura de control para poder discernir el navegador en el cual se estaba ejecutando el código.
+
+Todas estas cosas dieron lugar a la librería jQuery, originalmente desarrollada por John Roig, que tenía como objetivo, por una parte facilitar y unificar la llamada a peticiones, asíncronas entre cliente y servidor, y además, proporcionar una serie de métodos que permitieran al desarrollador, escribir un código más compacto y menos verboso que el código que hacía falta desarrollar en el caso de escribir JavaScript puro
+
+Por lo tanto, durante los siguientes años, el éxito y el ascenso de jQuery fue tremendo, hasta llegar a un momento en el que prácticamente más del 90 % de las páginas que utilizaban JavaScript, utilizaban igualmente la librería jQuery como apoyo, y para permitir a los desarrolladores, escribir un código más claro y más uniforme, y para evitar duplicidades y no tener que escribir código para diferentes navegadores, puesto que esa tarea la abordaba perfectamente la librería.
+
+Aunque en los últimos 15 años han surgido nuevas librerías JavaScript, y hemos entrado en la era de los Frameworks para crear páginas web, sin embargo, jQuery, sigue teniendo una importancia capital, porque no solo sigue estando presente en los nuevos desarrollos, sino que, sobre todo, todavía está muy presente en los desarrollos realizados durante los 15 años anteriores, y, por lo tanto, cualquier programador debe conocer, al menos de forma mínima, cuál es el funcionamiento de la librería jQuery, para programar proyectos futuros, o para mantener proyectos pasados.
+
