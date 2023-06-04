@@ -1,0 +1,11 @@
+ en el ejercicio anterior, hemos podido ver como existen dos métodos en jQuery específicamente diseñados para añadir clase y para quitar clase a un selector HTML.
+
+Sin embargo, este tipo de código en JavaScript se repite en muchas ocasiones, en las que tenemos que crear algo como un semáforo, para poder saber si la operación que tenemos que aplicar sobre un elemento es la de añadir o es la de quitar.
+
+Es decir, supongamos que, para mostrar o para ocultar un elemento, o bien para aplicar o quitar una clase, en lugar de crear dos botones, queremos crear un solo botón, que haga las veces de un interruptor, y que nos permita ejecutar la funcionalidad de encendido/apagado.
+
+Cuando esto ocurre, si lo hacemos con JavaScript plano, tendríamos que crear una variable de estado, y a partir de ahí, cada vez que se pulse el botón, tendríamos que utilizar algo así como una estructura de control condicional, para comprobar el estado de esa variable Juliana, y a partir de ahí operar en consecuencia.
+
+Mediante el método toca el Clash, esto no hace falta, ya que disponemos de un solo botón, y la librería se encarga de averiguar cuál es el estado de la visibilidad de la asignación de la clase a ese elemento, y de gestionar automáticamente si la operación actual debe ser de añadir clase o quitar clase.
+
+Si comparamos este código con el código del ejercicio anterior, comprobaremos que podemos conseguir un efecto muy parecido, pero utilizando mucho menos código en esta ocasión. 
