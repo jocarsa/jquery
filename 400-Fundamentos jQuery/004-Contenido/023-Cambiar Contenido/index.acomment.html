@@ -1,0 +1,19 @@
+ en este ejemplo, se muestra uno de los dos demostraciones de que el código que escribimos con jQuery es mucho más eficiente y menos verboso que el mismo código que escribíamos con JavaScript plano.
+
+En este caso, tenemos una tabla con información de usuarios, que contiene, en principio, las contraseñas a las claras.
+
+Pero, para este ejercicio, supongamos que queremos ocultar todas las contraseñas de un solo golpe utilizando un botón situado antes de la tabla.
+
+Por lo tanto, en el ejemplo que se presenta a continuación, se muestra como esta operación es terriblemente sencilla de realizar con jQuery, ya que, a diferencia de lo que ocurriría con JavaScript, no es necesario integrar en cada uno de los elementos, sino que esa operación la realiza automáticamente a la librería.
+
+En primer lugar, podremos comprobar, dentro del marcaje de la tabla HTML, que a las células que contienen una contraseña, se les ha añadido una clase con ese mismo nombre.
+
+A continuación, dentro del código JavaScript, en primer lugar, esperamos a que el documento esté preparado.
+
+Una vez que el documento esté preparado, establecemos una escuchador dentro del botón de ocultar, que ejecutará una función anónima.
+
+Y por último, dentro de esa función anónima, seleccionamos todos los elementos cuya clase sea contraseña, y les añadimos un texto consistente en una serie de asteriscos.
+
+Veremos, como en este caso, en lugar de tener que armar almacenar los elementos en una matriz, para más adelante, recobrar la matriz, simplemente indicamos que los elementos que tengan la clase contraseña, se les añada un texto consistente en unos asteriscos, y la librería se encarga de realizar esa interacción por nosotros.
+
+Este es uno de los mejores ejemplos de el ahorro de código que podemos conseguir utilizando la librería jQuery 
